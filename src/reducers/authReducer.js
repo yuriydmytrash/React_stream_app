@@ -5,6 +5,7 @@ const INITIAL_STATE = {
   userId: null
 };
 
+
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case SIGN_IN:
@@ -13,6 +14,7 @@ export default (state = INITIAL_STATE, action) => {
       return { ...state, isSignedIn: false, userId: null };
     default:
       return state;
+
   }
 };
 
