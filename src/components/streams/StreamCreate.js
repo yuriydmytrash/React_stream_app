@@ -54,6 +54,3 @@ export default reduxForm({
   form: 'streamCreate',
   validate
 })(StreamCreate);
-
-
-
